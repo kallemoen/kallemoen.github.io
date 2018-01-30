@@ -16,6 +16,7 @@ h2 {
   font-size: 21px;
   color: gray;
   font-weight: normal;
+  line-height: 1.5;
 }
 
 h3 {
@@ -26,7 +27,7 @@ a {
 
 p {
   font-size: 21px;
-  color: gray;
+  color: #424242;
   font-weight: normal;
   text-align: right;
   padding-right: 30px;
@@ -37,9 +38,19 @@ color: aquamarine;
 text-decoration: underline;
 }
 
-/* Titles */
+/* Sections */
 
 .title {
  padding-top: 30px;
  padding-bottom: 50px;
+}
+
+.footer {
+  background-color: #1C1C1C;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#phone {
+  padding-top: 30px;
 }
