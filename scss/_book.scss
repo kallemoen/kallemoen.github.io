@@ -1,0 +1,24 @@
+// ==============================
+// Main styles
+// ==============================
+
+.book {
+  text-align: left;
+  .avatar {
+    text-align: center;
+  }
+}
+
+.side-widget {
+  background-color: lighten($yellow, 6%);
+  padding: em(20px);
+  border-radius: $border-radius;
+  margin-bottom: em(20px);
+  .button {
+    margin-bottom: 0;
+  }
+}
+
+.fb_iframe_widget {
+  display: block !important;
+}

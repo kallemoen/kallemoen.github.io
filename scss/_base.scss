@@ -1,0 +1,67 @@
+// ======================
+// Base styles
+// ======================
+
+body {
+  @media (max-width: 600px) {
+    text-align: left;
+  }
+  background-color: $white;
+  color: $black;
+  text-align: center;
+  font-family: $font-family--primary;
+  font-size: $base__font-size;
+  font-weight: $font-weight--light;
+  line-height: ($base__line-height/$base__font-size);
+}
+
+a {
+  @include transition(color .3s ease);
+}
+
+p {
+  font-family: $font-family--primary;
+  font-size: $base__font-size;
+  font-weight: $font-weight--light;
+  line-height: ($base__line-height/$base__font-size);
+}
+
+h1 {
+  color: $black;
+  font-family: $font-family--primary;
+  font-weight: $font-weight--bold;
+  font-size: em(36px);
+  line-height: (46px/36px);
+}
+
+h2 {
+  color: $black;
+  font-family: $font-family--primary;
+  font-weight: $font-weight--bold;
+  font-size: em(30px);
+  line-height: (40px/30px);
+}
+
+h3 {
+  color: $black;
+  font-family: $font-family--primary;
+  font-weight: $font-weight--bold;
+  font-size: em(20px);
+  line-height: (32px/20px);
+}
+
+small {
+  display: block;
+  font-weight: $font-weight--medium;
+}
+
+blockquote {
+  text-align: left;
+  background-color: $grey;
+  border-left: none;
+  padding: em(30px);
+  border-radius: $border-radius;
+  cite {
+    font-weight: $font-weight--medium;
+  }
+}

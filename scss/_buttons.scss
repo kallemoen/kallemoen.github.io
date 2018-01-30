@@ -1,0 +1,36 @@
+// ==============================
+// Button styles
+// ==============================
+
+.button {
+  @include bg-colors($ui-colors);
+  border-radius: $border-radius;
+  padding: 1em 3em 1.1em;
+  font-weight: $font-weight--bold;
+  font-family: $font-family--primary;
+  &.disabled {
+    cursor: not-allowed;
+    background-color: $black;
+    &:hover {
+      background-color: $black;
+    }
+  }
+}
+
+.button--primary {
+  &:hover {
+    background-color: darken($green, 10%);
+  }
+  &:focus {
+    background-color: $green;
+  }
+}
+
+.button--secondary {
+  &:hover {
+    background-color: darken($blue, 10%);
+  }
+  &:focus {
+    background-color: $blue;
+  }
+}
