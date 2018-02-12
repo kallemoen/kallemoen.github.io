@@ -52,6 +52,7 @@ ul {
   margin: auto;
   max-width: 750px;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .content-block {
@@ -70,7 +71,13 @@ ul {
   color: #B9BED3;
 }
 
-.pattern_bar {
+.pattern-bar {
+  height: 1900px;
+  width: 100px;
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat-y;
+  background-size: 100px;
+  float: left;
 
 }
 .section {
