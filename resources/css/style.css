@@ -37,6 +37,12 @@ img {
   max-width: 200px;
   max-heigh: 200px;
   border-radius: 100px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 ul {
