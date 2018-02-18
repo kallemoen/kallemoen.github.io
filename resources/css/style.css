@@ -1,100 +1,210 @@
-* {
-  font-family: "aglet-slab", serif;
-  color: #14246C;
+/**
+*** SIMPLE GRID
+*** (C) ZACH COLE 2016
+**/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+/* UNIVERSAL */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
   margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 22px;
+  background-color: #171719;
 }
 
-/* Typography */
-h1, h2, h3, h4 {
-  line-height: 1.2;
+/* ROOT FONT STYLES */
+
+* {
+  font-family: "Merriweather", serif;
+  color: seashell;
+  line-height: 1.3;
+  font-weight: light;
 }
+
+/* TYPOGRAPHY */
 
 h1 {
-  font-size: 75px;
+  font-size: 1.8rem;
 }
 
 h2 {
-  font-size: 55px;
+  font-size: 1.3rem;
 }
 
 h3 {
-  font-size: 35px;
-  padding-bottom: 10px;
+  font-size: 1rem;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 1.125rem;
 }
 
-p, ul, li {
-  font-size: 20px;
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 200;
   line-height: 1.5;
 }
 
-/* graphics */
-
-img {
-  max-width: 200px;
-  max-heigh: 200px;
-  border-radius: 100px;
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: "FlipH";
+.font-light {
+  font-weight: 300;
 }
 
-ul {
-  padding-top: 30px;
+.font-regular {
+  font-weight: 400;
 }
-/* Sections */
 
-.detail {
-  font-weight: lighter;
-  color: #F137A6;
-  display: inline-block;
+.font-heavy {
+  font-weight: 700;
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
+/* Main navigation */
+
+.navigation  {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.navigation li {
+  display: inline-flex;
+  padding-left: 50px;
+}
+
+.navigation  ul {
   float: right;
-  padding-top: 12px;
+  padding-right: 100px;
 }
 
-.col {
-  margin: auto;
-  max-width: 750px;
-  padding: 100px 50px 100px 50px;
+.navigation a {
+  text-decoration: none;
 }
 
-.content-block {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+.navigation a:hover {
+  color: #a09d9a;
 }
+
+.logo {
+  display: inline;
+  color: #F137A6;
+  height: 50px;
+  padding-right: 400px;
+}
+
+/* Hero Section */
+
+.hero {
+  background-image: url("../img/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  margin-top: 40px;
+}
+
+.banner {
+  background-color: #1f1f23;
+  width: 70%;
+  padding: 20px 20px 20px 70px;
+  position: relative;
+  top: 200px;
+}
+
+/* Bullet Boxes */
 
 .title {
-  display: inline-block;
-  float: right;
-  padding-top: 35px;
-  padding-right: 110px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
 
-.date {
-  color: #B9BED3;
+.title h1 {
+  margin-bottom: 0px;
 }
 
-.pattern-bar {
-  height: 2050px;
-  width: 100px;
-  background-image: url("../img/pattern.png");
-  background-repeat: repeat-y;
-  background-size: 100px;
-  float: left;
-  padding-right: 50px;
+.title h2 {
+  margin-top: 10px;
 }
 
-.section {
-  padding-top: 40px;
+.bullet-boxes {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
 }
 
-#sub-title {
-  padding-top: 1px;
-  float: left;
+.box img {
+  max-width: 300px;
+}
+
+.box {
+  margin: 10px;
+}
+
+/* Three tiered info section */
+
+.three-tier-section {
+  background-image: url("../img/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.tier {
+  background-color: #1f1f23;
+  max-width: 300px;
+  margin: 10px;
+  padding: 40px;
+}
+
+.tier p {
+  margin: 0px;
+}
+
+.tier h2 {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+/* footer */
+
+footer {
+  opacity: 0.2;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer img {
+  height: 50px;
+}
+
+footer p {
+  margin: 5px;
 }
