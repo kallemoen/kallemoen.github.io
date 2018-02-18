@@ -178,9 +178,10 @@ p {
 
 .tier {
   background-color: #1f1f23;
-  max-width: 300px;
-  margin: 10px;
+  max-width: 200px;
+  margin: 30px;
   padding: 40px;
+  height: 270px;
 }
 
 .tier p {
