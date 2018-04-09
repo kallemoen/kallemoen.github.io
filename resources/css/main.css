@@ -23,7 +23,7 @@ body {@
 /* ROOT FONT STYLES */
 
 * {
-  font-family: "Aglet slab", serif;
+  font-family: "tk-aglet-slab", serif;
   color: #2A2E33;
   line-height: 1.2;
 }
@@ -31,7 +31,7 @@ body {@
 /* TYPOGRAPHY */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Aglet slab",serif;
+    font-family: "tk-aglet-slab",serif;
     font-weight: 400;
     color: #292b2f;
     line-height: 1.2;
