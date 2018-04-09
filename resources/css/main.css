@@ -1,0 +1,295 @@
+/**
+*** SIMPLE GRID
+*** (C) ZACH COLE 2016
+**/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+/* UNIVERSAL */
+
+html,
+body {@
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  background: #FEFDFA;
+  background-image: url("../img/background.png");
+}
+
+/* ROOT FONT STYLES */
+
+* {
+  font-family: "Aglet slab", serif;
+  color: #2A2E33;
+  line-height: 1.2;
+}
+
+/* TYPOGRAPHY */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Aglet slab",serif;
+    font-weight: 400;
+    color: #292b2f;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+a {
+  font-size: 25px;
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #1CA5FC;
+}
+
+li {
+  font-size: 25px;
+  padding-bottom: 0.4em;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-heavy {
+  color: #9da1b1;
+}
+
+.underline {
+  background-color: #C3E8FF;
+  width: 220px;
+  height: 15px;
+  position: relative;
+  left: -3px;
+  bottom: -40px;
+  z-index: -1;
+}
+
+/* POSITIONING */
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* universal block */
+
+.block {
+  margin-top: 3em;
+}
+
+
+/* Navigation */
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 1em;
+  padding-left: 1em;
+  color: inherit;
+  font-weight: bold;
+}
+
+.nav ul {
+  float: right;
+  padding-top: 2em;
+}
+
+
+@media only screen and (max-width: 511px) {
+
+  .nav ul {
+    padding-top: 0.8em;
+  }
+
+  .nav li {
+    padding-bottom: 0em;
+  }
+}
+
+/* Hero */
+
+.hero-title {
+  padding-top: 6em;
+  max-width: 45%;
+}
+
+.hero-image {
+  max-width: 50%;
+  float: right;
+}
+
+
+@media only screen and (max-width: 1125px) {
+
+  .hero-title {
+
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+  .hero-title h3 {
+    font-size: 25px;
+  }
+
+  .hero-image {
+
+
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .hero-title {
+    padding-top: 1em;
+    max-width: 100%;
+  }
+
+  .hero-title h1 {
+    font-size: 45px;
+  }
+  .hero-title h3 {
+    font-size: 25px;
+  }
+
+  .hero-image {
+    float: none;
+    max-width: 100%;
+
+  }
+}
+
+
+/* dual-info-block */
+
+
+.dual-info-block h1 {
+  padding-top: 0.2em;
+
+}
+
+.info-block {
+  margin-bottom: 2em;
+}
+
+.info-block ol, ul {
+  margin-left: 1.3rem;
+}
+
+.info-block p {
+  margin-bottom: 0.3em;
+}
+
+.info-block a {
+  padding-top: 1em;
+}
+
+.info-block h3 {
+  padding-bottom: 0.3em;
+}
+
+/* teaser-block */
+
+.teaser-block h4 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.teaser-block h1 {
+  padding-bottom: 0.5em;
+}
+
+.teaser-box {
+
+}
+
+/* footer */
+
+
+.footer {
+  padding-top: 4em;
+  padding-bottom: 2em;
+  color: #A5A5A5;
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  color: inherit;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 1em;
+  padding-left: 1em;
+  color: #A5A5A5;
+}
+
+.footer p {
+  color: #A5A5A5;
+}
+
+
+
+.footer ul {
+  padding-top: 0em;
