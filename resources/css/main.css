@@ -24,6 +24,8 @@ body {@
 
 * {
   font-family: "aglet-slab"	, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   color: #2A2E33;
   line-height: 1.2;
 }
@@ -31,8 +33,9 @@ body {@
 /* TYPOGRAPHY */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "aglet-slab"	, Helvetica, sans-serif;
-    font-weight: 400;
+    font-family: "aglet-slab",sans-serif;
+    font-style: normal;
+    font-weight: 700;
     color: #292b2f;
     line-height: 1.2;
     letter-spacing: 1px;
