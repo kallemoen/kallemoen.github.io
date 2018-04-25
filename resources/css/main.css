@@ -223,6 +223,52 @@ li {
 }
 
 
+/* forms */
+
+button {
+  height: 2.4375rem;
+  padding: .5rem;
+  background-color: #1CA5FC;
+  color: white;
+  width: 100%;
+}
+
+input[type=text] {
+  background-color: #F2F1ED;
+  box-shadow: none;
+  border: none;
+}
+
+input[type=text]:focus {
+  background-color: #F2F1ED;
+  box-shadow: none;
+  border: none;
+}
+
+textarea {
+  background-color: #F2F1ED;
+  box-shadow: none;
+  height: 8em;
+  border: none;
+}
+
+textarea:focus {
+  background-color: #F2F1ED;
+  box-shadow: none;
+  height: 8em;
+  border: none;
+}
+
+input[type=text]::placeholder {
+    color: #87898B;
+    opacity: 1;
+}
+
+textarea::placeholder {
+  color: #87898B;
+  opacity: 1;
+}
+
 /* dual-info-block */
 
 
@@ -291,8 +337,6 @@ li {
 .footer p {
   color: #A5A5A5;
 }
-
-
 
 .footer ul {
   padding-top: 0em;
