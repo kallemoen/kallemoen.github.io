@@ -269,6 +269,10 @@ textarea::placeholder {
   opacity: 1;
 }
 
+#contact-form {
+  margin-bottom: 4em;
+}
+
 /* dual-info-block */
 
 
