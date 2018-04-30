@@ -155,6 +155,9 @@ li {
   padding-top: 2em;
 }
 
+#logo-link {
+  padding-left: 0em;
+}
 
 @media only screen and (max-width: 511px) {
 
