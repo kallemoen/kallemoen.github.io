@@ -173,19 +173,21 @@ li {
 /* Hero */
 
 .hero-title {
-  padding-top: 6em;
+  padding-top: 6.5em;
   max-width: 45%;
 }
 
 .hero-image {
-  max-width: 50%;
+  max-width: 45%;
   float: right;
+  transform: rotate(5deg);
 }
 
 
 @media only screen and (max-width: 1125px) {
 
   .hero-title {
+    padding-top: 3.5em;
 
   }
 
@@ -220,7 +222,7 @@ li {
   .hero-image {
     float: none;
     max-width: 100%;
-
+    transform: rotate(0deg);
   }
 
 
