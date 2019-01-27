@@ -17,6 +17,7 @@ body {@
   top: 0;
   font-size: 20px;
   background: #FAFAFA;
+  overflow-y: scroll;
 }
 
 /* ROOT FONT STYLES */
