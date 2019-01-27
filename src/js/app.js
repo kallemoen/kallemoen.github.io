@@ -196,7 +196,6 @@ const Contact = { template: `
 
 
 const router = new VueRouter({
-  mode: 'history',
   saveScrollPosition: true,
   routes: [
     { path: '/', component: Home },
