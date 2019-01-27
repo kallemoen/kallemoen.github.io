@@ -206,5 +206,19 @@ const router = new VueRouter({
 })
 
 const app = new Vue({
-  router
+  router,
+
+  data: {
+    butter: null,
+  },
+
+  created () {
+    window.addEventListener("load", this.assignButter);
+  },
+
+  methods: {
+    assignButter: function () {
+      this.butter = window.butter;
+    }
+  }
 }).$mount('#app')
