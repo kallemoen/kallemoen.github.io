@@ -195,11 +195,10 @@ const Contact = { template: `
 
 
 
-
 const router = new VueRouter({
   saveScrollPosition: true,
   routes: [
-    { path: '/home', component: Home },
+    { path: '/', component: Home },
     { path: '/blog', name: 'blog-home', component: BlogHome },
     { path: '/blog/:slug', name: 'blog-post', component: BlogPost },
     { path: '/contact', component: Contact }
