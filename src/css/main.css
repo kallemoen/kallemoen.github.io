@@ -18,6 +18,7 @@ body {@
   font-size: 20px;
   background: #FAFAFA;
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* ROOT FONT STYLES */
