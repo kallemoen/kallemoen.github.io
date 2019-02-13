@@ -29,8 +29,8 @@ const Home = {
         <div class="large-5 columns info-block-sidebar">
           <div class="info-block">
             <h3><strong><div class="underline"></div>Where I am</strong></h3>
-            <p><strong>Currently:</strong> Swiss alps</p>
-            <p><strong>Next up:</strong> Bristol</p>
+            <p><strong>Currently:</strong> Bristol</p>
+            <p><strong>Next up:</strong> Lisbon</p>
             <a href="https://docs.google.com/spreadsheets/d/14bqDOb2B-KImXapcQs3Iq3OaZe7RG-Ie6iypnn4BqRE/edit#gid=1055595212">See my travel plans</a>
           </div>
           <div class="info-block">
