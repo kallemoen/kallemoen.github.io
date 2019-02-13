@@ -235,7 +235,7 @@ const Projects = {
         </div>
         <div class="large-7 medium-7 small-12 columns">
           <h3><strong>Simple Mantra Meditation</strong></h3>
-          <p>I've meditated big parts of my life. In early 2018 I wanted to try mantra-based meditation like TM, which was different from what I had done in the past. After researching it, I learned that it was difficult to learn it without paying thousands of dollars. I found this so stupid that I decided to build a mini-site that explains exactly how you do it. <a href="/smm">You can check out the site here.</a></p>
+          <p>I've meditated big parts of my life. In early 2018 I wanted to try mantra-based meditation like TM, which was different from what I had done in the past. After researching it, I learned that it was difficult to learn it without paying thousands of dollars. I found this so stupid that I decided to build a mini-site that explains exactly how you do it.</p>
         </div>
       </div>
     </div>
