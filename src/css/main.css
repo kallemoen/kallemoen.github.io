@@ -244,10 +244,16 @@ button {
   background-color: #1CA5FC;
   color: white;
   width: 100%;
+  outline:none;
 }
 
 button:hover {
-  transform: rotate(3deg);
+  background-color: #1e9cec; 
+}
+
+button:active {
+  background-color: #0d79bd; 
+  outline:none;
 }
 
 input[type=text] {
