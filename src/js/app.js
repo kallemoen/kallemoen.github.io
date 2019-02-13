@@ -24,7 +24,7 @@ const Home = {
       </div>
     </div>
 
-    <div class="row block dual-info-block">
+    <div class="row block dual-info-block last">
       <div class="large-10 medium-10 small-12 small-centered medium-centered large-centered columns">
         <div class="large-5 columns info-block-sidebar">
           <div class="info-block">
@@ -175,7 +175,7 @@ const Contact = { template: `
               <button type="submit">Send</button>
             </form>
           </div>
-          <div class="large-5 columns info-block-sidebar">
+          <div class="large-5 columns info-block-sidebar last">
             <div class="info-block">
               <h3><strong><div class="underline" style="width:120px;"></div>Say hi</strong></h3>
               <p><strong>Email:</strong> hello@kallemoen.com</p>
@@ -193,6 +193,69 @@ const Contact = { template: `
   </div>`
 }
 
+const Projects = { 
+
+  data: function () {
+    return {
+      headline: `Projects`,
+      subheadline: `Some of my side-projects over the years`,
+    }
+  },
+
+
+  template: `
+  <div id="home">
+    <div class="row block hero">
+      <div class="large-10 medium-10 small-12 small-centered medium-centered large-centered columns">
+        <div class="large-6 large-centered columns">
+          <div class="hero-title-noimg">
+            <h1><strong>{{ headline }}</strong></h1>
+            <h3>{{ subheadline }}</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row projects">
+      <div class="large-10 medium-10 small-11 small-centered medium-centered large-centered">
+        <div class="large-5 medium-5 small-12 columns">
+          <img src="./src/img/leather-wallet.png">
+        </div>
+        <div class="large-7 medium-7 small-12 columns">
+          <h3><strong>Handmade leather wallets</strong></h3>
+          <p>Back in 2014, I was part of starting a maker space in Oslo. During that time I got to know a guy that did leather work. He taught me and a friend the basics and let us borrow his tools. When Christmas approached, the maker space had a member booth at a Christmas design market. My friend and I decided to make a batch of leather wallets that we sold. The wallets we had left became Christmas presents that year. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row projects">
+      <div class="large-10 medium-10 small-11 small-centered medium-centered large-centered">
+        <div class="large-5 medium-5 small-12 columns">
+          <img src="./src/img/smm.png">
+        </div>
+        <div class="large-7 medium-7 small-12 columns">
+          <h3><strong>Simple Mantra Meditation</strong></h3>
+          <p>I've meditated big parts of my life. In early 2018 I wanted to try mantra-based meditation like TM, which was different from what I had done in the past. After researching it, I learned that it was difficult to learn it without paying thousands of dollars. I found this so stupid that I decided to build a mini-site that explains exactly how you do it. <a href="/smm">You can check out the site here.</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row projects last">
+      <div class="large-10 medium-10 small-11 small-centered medium-centered large-centered">
+        <div class="large-5 medium-5 small-12 columns">
+          <img src="./src/img/snuggle.png">
+        </div>
+        <div class="large-7 medium-7 small-12 columns">
+          <h3><strong>Snugglepoof t-shirt</strong></h3>
+          <p>For a while, everyone at my company was obsessed about what Harry Potter house they were in. Our CEO who was totally out of the loop, and in a company-wide call mispronounced Hufflepuff as Snugglepoof. A colleague and I found it hilarious I decided to design our own Harry Potter emblem. I chose the armadillo as the house animal since we had recently done armadillo racing at a company off-site. We ended up printing it on t-shirts and sending it to everyone in the company. </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  ` }
+
+
 
 
 const router = new VueRouter({
@@ -202,7 +265,8 @@ const router = new VueRouter({
     { path: '/', component: Home },
     { path: '/blog', name: 'blog-home', component: BlogHome },
     { path: '/blog/:slug', name: 'blog-post', component: BlogPost },
-    { path: '/contact', component: Contact }
+    { path: '/contact', component: Contact },
+    { path: '/projects', component: Projects }
   ]
 })
 
@@ -211,6 +275,7 @@ const app = new Vue({
 
   data: {
     butter: null,
+
   },
 
   created () {

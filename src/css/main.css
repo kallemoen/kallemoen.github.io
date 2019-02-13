@@ -230,6 +230,12 @@ li {
 }
 
 
+/* Hero no image */
+
+.hero-title-noimg {
+  text-align: center;
+}
+
 /* forms */
 
 button {
@@ -424,7 +430,21 @@ figure {
 }
 
 
+/* Projects */
 
+
+.projects {
+  padding-top: 4em;
+}
+
+.projects img {
+  border: solid 15px #F2F2F2;
+  margin-bottom: 1em;
+}
+
+.last {
+  padding-bottom: 5em;
+}
 
 
 
