@@ -24,6 +24,8 @@ const Home = {
       </div>
     </div>
 
+    <progress value="22" max="100"></progress>
+
     <div class="row block dual-info-block last">
       <div class="large-10 medium-10 small-12 small-centered medium-centered large-centered columns">
         <div class="large-5 columns info-block-sidebar">
@@ -247,7 +249,7 @@ const Projects = {
         </div>
         <div class="large-7 medium-7 small-12 columns">
           <h3><strong>Snugglepoof t-shirt</strong></h3>
-          <p>For a while, everyone at my company was obsessed about what Harry Potter house they were in. Our CEO who was totally out of the loop, and in a company-wide call mispronounced Hufflepuff as Snugglepoof. A colleague and I found it hilarious I decided to design our own Harry Potter emblem. I chose the armadillo as the house animal since we had recently done armadillo racing at a company off-site. We ended up printing it on t-shirts and sending it to everyone in the company. </p>
+          <p>For a while, everyone at my company was obsessed with which Harry Potter house they were in. Our CEO, who was totally out of the loop, managed to mispronounce Hufflepuff as Snugglepoof in a company-wide call. A colleague and I found it  hilarious, and I decided to design our own emblem. I chose the armadillo as the house animal since we had recently done armadillo racing at a company off-site. We ended up printing it on t-shirts and sending it to everyone in the company.</p>
         </div>
       </div>
     </div>
