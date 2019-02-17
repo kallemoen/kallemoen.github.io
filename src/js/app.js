@@ -24,8 +24,6 @@ const Home = {
       </div>
     </div>
 
-    <progress value="22" max="100"></progress>
-
     <div class="row block dual-info-block last">
       <div class="large-10 medium-10 small-12 small-centered medium-centered large-centered columns">
         <div class="large-5 columns info-block-sidebar">
