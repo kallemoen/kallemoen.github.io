@@ -216,6 +216,18 @@ const Projects = {
       </div>
     </div>
 
+    <div class="row projects last">
+      <div class="large-10 medium-10 small-11 small-centered medium-centered large-centered">
+        <div class="large-5 medium-5 small-12 columns">
+          <img src="./src/img/snuggle.png">
+        </div>
+        <div class="large-7 medium-7 small-12 columns">
+          <h3><strong>Snugglepoof t-shirt</strong></h3>
+          <p>For a while, everyone at my company was obsessed with which Harry Potter house they were in. Our CEO, who was totally out of the loop, managed to mispronounce Hufflepuff as Snugglepoof in a company-wide call. A colleague and I found it  hilarious, and I decided to design our own emblem. I chose the armadillo as the house animal since we had recently done armadillo racing at a company off-site. We ended up printing it on t-shirts and sending it to everyone in the company.</p>
+        </div>
+      </div>
+    </div>
+
     <div class="row projects">
       <div class="large-10 medium-10 small-11 small-centered medium-centered large-centered">
         <div class="large-5 medium-5 small-12 columns">
@@ -236,18 +248,6 @@ const Projects = {
         <div class="large-7 medium-7 small-12 columns">
           <h3><strong>Simple Mantra Meditation</strong></h3>
           <p>I've meditated big parts of my life. In early 2018 I wanted to try mantra-based meditation like TM, which was different from what I had done in the past. After researching it, I learned that it was difficult to learn it without paying thousands of dollars. I found this so stupid that I decided to build a mini-site that explains exactly how you do it.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="row projects last">
-      <div class="large-10 medium-10 small-11 small-centered medium-centered large-centered">
-        <div class="large-5 medium-5 small-12 columns">
-          <img src="./src/img/snuggle.png">
-        </div>
-        <div class="large-7 medium-7 small-12 columns">
-          <h3><strong>Snugglepoof t-shirt</strong></h3>
-          <p>For a while, everyone at my company was obsessed with which Harry Potter house they were in. Our CEO, who was totally out of the loop, managed to mispronounce Hufflepuff as Snugglepoof in a company-wide call. A colleague and I found it  hilarious, and I decided to design our own emblem. I chose the armadillo as the house animal since we had recently done armadillo racing at a company off-site. We ended up printing it on t-shirts and sending it to everyone in the company.</p>
         </div>
       </div>
     </div>
