@@ -259,7 +259,7 @@ const Projects = {
         </div>
         <div class="large-7 medium-7 small-12 columns">
           <h3><strong>Book notes</strong></h3>
-          <p>I discuss book recommendations with my friends all the time. Instead of writing down book recommendations to everyone that asks, I've created a public Workflowy doc where I share my book notes and a personal score from 1-5.  <a href="https://workflowy.com/s/book-notes/P3PY4iJlsz9pDsVn">You can find my notes here.</a> (external link)</p>
+          <p>I discuss book recommendations with friends all the time. Instead of writing down book recommendations to everyone that asks, I've created a public Workflowy doc where I share my book notes and a personal score from 1-5.  <a href="https://workflowy.com/s/book-notes/P3PY4iJlsz9pDsVn">You can find my notes here.</a> (external link)</p>
         </div>
       </div>
     </div>
