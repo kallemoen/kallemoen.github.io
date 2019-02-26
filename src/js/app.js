@@ -137,21 +137,38 @@ const BlogPost = {
       <h1>{{ post.data.title }}</h1>
       <h4>By: {{ post.data.author.first_name }} {{ post.data.author.last_name }}</h4>
       <div v-html="post.data.body"></div>
+      <div class="opt-in">
+        <div class="content-wrapper">
+          <h3>Want to read more articles like this?</h3>
+          <p>Drop your email below and I'll let you know when I write another one.</p>
+          
+        
+          <!-- Begin Mailchimp Signup Form -->
+          <div id="mc_embed_signup">
+          <form action="https://kallemoen.us20.list-manage.com/subscribe/post?u=e4ab87fd73e22a38e086d80d7&amp;id=2ac6b04364" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+          <div class="mc-field-group">
+          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email...">
+          </div>
+          <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e4ab87fd73e22a38e086d80d7_2ac6b04364" tabindex="-1" value=""></div>
+          <button type="submit" value="Count me in!" name="subscribe" id="mc-embedded-subscribe" class="button">Count me in!</button>
+          </div>
+          </form>
+          </div>
+          <!--End mc_embed_signup-->
+        </div>
+       </div>
 
-      <router-link
-        v-if="post.meta.previous_post"
-        :to="/blog/ + post.meta.previous_post.slug"
-        class="button"
-      >
-        {{ post.meta.previous_post.title }}
-      </router-link>
-      <router-link
-        v-if="post.meta.next_post"
-        :to="/blog/ + post.meta.next_post.slug"
-        class="button"
-      >
-        {{ post.meta.next_post.title }}
-      </router-link>
+
+
+
+
+
+     
     </div>
   </div>
   `

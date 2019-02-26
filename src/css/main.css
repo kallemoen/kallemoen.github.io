@@ -256,6 +256,7 @@ button:active {
   outline:none;
 }
 
+
 input[type=text] {
   background-color: #F2F1ED;
   box-shadow: none;
@@ -267,6 +268,24 @@ input[type=text]:focus {
   box-shadow: none;
   border: none;
 }
+
+input[type=email] {
+  background-color: #F2F1ED;
+  box-shadow: none;
+  border: none;
+}
+
+input[type=email]:focus {
+  background-color: #F2F1ED;
+  box-shadow: none;
+  border: none;
+}
+
+input[type=email]::placeholder {
+    color: #87898B;
+    opacity: 1;
+}
+
 
 textarea {
   background-color: #F2F1ED;
@@ -450,6 +469,28 @@ figure {
 
 .last {
   padding-bottom: 5em;
+}
+
+/* Opt-in */
+
+.opt-in {
+  padding: 2em 0em;
+}
+
+.content-wrapper {
+  background-color:#F2F2F2; 
+  padding: 2em;
+}
+
+.content-wrapper input {
+  box-shadow: none;
+  background-color:#dcdcdb; 
+
+}
+
+.content-wrapper input:focus {
+  background-color:#dcdcdb; 
+  border: 1px solid black;
 }
 
 
