@@ -1,4 +1,4 @@
-const Home = { 
+const Home = {
 
   data: function () {
     return {
@@ -29,7 +29,7 @@ const Home = {
         <div class="large-5 columns info-block-sidebar">
           <div class="info-block">
             <h3><strong><div class="underline"></div>Where I am</strong></h3>
-            <p><strong>Currently:</strong> Bristol</p>
+            <p><strong>Currently:</strong> Cape Town</p>
             <p><strong>Next up:</strong> Lisbon</p>
             <a href="https://docs.google.com/spreadsheets/d/14bqDOb2B-KImXapcQs3Iq3OaZe7RG-Ie6iypnn4BqRE/edit#gid=1055595212">See my travel plans</a>
           </div>
@@ -53,12 +53,12 @@ const Home = {
 
   ` }
 
-const BlogHome = { 
+const BlogHome = {
 
   data: function () {
     return {
       page_title: 'Blog Posts',
-      posts: [] 
+      posts: []
     }
   },
 
@@ -75,7 +75,7 @@ const BlogHome = {
     created() {
       this.getPosts()
     },
-  
+
   template: `
 
   <div id="blog-home">
@@ -107,11 +107,11 @@ const BlogHome = {
 </div>`
 }
 
-const BlogPost = { 
+const BlogPost = {
 
   data: function () {
     return {
-      post: [] 
+      post: []
     }
   },
 
@@ -141,8 +141,8 @@ const BlogPost = {
         <div class="content-wrapper">
           <h3>Want to read more articles like this?</h3>
           <p>Drop your email below and I'll let you know when I write another one.</p>
-          
-        
+
+
           <!-- Begin Mailchimp Signup Form -->
           <div id="mc_embed_signup">
           <form action="https://kallemoen.us20.list-manage.com/subscribe/post?u=e4ab87fd73e22a38e086d80d7&amp;id=2ac6b04364" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -168,15 +168,15 @@ const BlogPost = {
 
 
 
-     
+
     </div>
   </div>
   `
 }
 
-  
 
-  
+
+
 
 const Contact = { template: `
   <div id="contact">
@@ -210,7 +210,7 @@ const Contact = { template: `
   </div>`
 }
 
-const Projects = { 
+const Projects = {
 
   data: function () {
     return {
