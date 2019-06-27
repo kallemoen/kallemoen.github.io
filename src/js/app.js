@@ -196,7 +196,6 @@ const Contact = { template: `
             <div class="info-block">
               <h3><strong><div class="underline" style="width:120px;"></div>Say hi</strong></h3>
               <p><strong>Email:</strong> hello@kallemoen.com</p>
-              <p><strong>WhatsApp:</strong> +47 970 93 175</p>
             </div>
             <div class="info-block">
               <h3><strong><div class="underline"></div>The Socials</strong></h3>
