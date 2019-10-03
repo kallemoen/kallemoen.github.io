@@ -29,8 +29,8 @@ const Home = {
         <div class="large-5 columns info-block-sidebar">
           <div class="info-block">
             <h3><strong><div class="underline"></div>Where I am</strong></h3>
-            <p><strong>Currently:</strong> Cape Town</p>
-            <p><strong>Next up:</strong> Lisbon</p>
+            <p><strong>Currently:</strong> Lisbon</p>
+            <p><strong>Next up:</strong> ?</p>
             <a href="https://docs.google.com/spreadsheets/d/14bqDOb2B-KImXapcQs3Iq3OaZe7RG-Ie6iypnn4BqRE/edit#gid=1055595212">See my travel plans</a>
           </div>
           <div class="info-block">
@@ -38,7 +38,7 @@ const Home = {
             <ol>
               <li>Engineering Manager at IWT</li>
               <li>Creating software at Kin</li>
-              <li>Learning Vue.js</li>
+              <li>Studying Math</li>
             </ol>
           </div>
         </div>
