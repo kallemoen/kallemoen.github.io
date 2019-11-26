@@ -3,7 +3,7 @@ const Home = {
   data: function () {
     return {
       headline: `Ahoy, I'm Kalle`,
-      subheadline: `Product Manager, UI/UX Designer, Magician and Vagabond`,
+      subheadline: `Product Manager and Entrepreneur`,
     }
   },
 
@@ -29,23 +29,21 @@ const Home = {
         <div class="large-5 columns info-block-sidebar">
           <div class="info-block">
             <h3><strong><div class="underline"></div>Where I am</strong></h3>
-            <p><strong>Currently:</strong> Lisbon</p>
-            <p><strong>Next up:</strong> ?</p>
-            <a href="https://docs.google.com/spreadsheets/d/14bqDOb2B-KImXapcQs3Iq3OaZe7RG-Ie6iypnn4BqRE/edit#gid=1055595212">See my travel plans</a>
+            <p><strong>Currently: </strong>Lisbon</p>
+            <p><strong>Next up: </strong>Buenos Aires</p>
           </div>
           <div class="info-block">
             <h3 style="line-height: 30px;"><div style="width: 180px; bottom: -35px" class="underline"></div><strong>What I'm <div style="bottom: -35px" class="underline"></div>working on</strong></h3>
             <ol>
-              <li>Engineering Manager at IWT</li>
-              <li>Creating software at Kin</li>
+              <li><a href="www.getkin.io">Co-founder at Kin</a></li>
               <li>Studying Math</li>
             </ol>
           </div>
         </div>
         <div class="large-7 columns">
           <h1><strong>Me in 10 seconds:</strong></h1>
-          <p>Half Norwegian, half Finnish. Been traveling the world full-time the last three years. Used to be a professional magician, then stumbled into tech.</p>
-          <p>Learning is my most reliable source of happiness. I’m always looking at picking up new skills. Currently, I’m learning to program, but in the past, I’ve dabbled in everything from leather work, to singing and photography.</p>
+          <p>Half Norwegian, half Finnish. Been traveling the world full-time for the last four years. Used to be a professional magician, then stumbled into tech.</p>
+          <p>Learning is my most reliable source of happiness. I’m always looking at picking up new skills. Currently, I’m studying math, but in the past, I’ve dabbled in everything from leatherwork, to singing and photography.</p>
       </div>
     </div>
     </div>
