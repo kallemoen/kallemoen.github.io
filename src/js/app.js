@@ -35,7 +35,7 @@ const Home = {
           <div class="info-block">
             <h3 style="line-height: 30px;"><div style="width: 180px; bottom: -35px" class="underline"></div><strong>What I'm <div style="bottom: -35px" class="underline"></div>working on</strong></h3>
             <ol>
-              <li><a href="http://www.getkin.io">Co-founder at Kin</a></li>
+              <li><a href="https://www.managedbykin.com">Co-founder at Kin</a></li>
               <li>Studying Math</li>
             </ol>
           </div>
