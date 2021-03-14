@@ -1,0 +1,21 @@
+title: Kalle Moen
+author: Kalle Moen
+subtitle: Product, design, and business. 
+
+baseurl: ""
+
+footer_only_homepage: true
+footer_url: "https://github.com/pro-panda"
+footer_text: "Theme by pro-panda"
+
+profile-picture: assets/headshot@2x.png
+favicon_location: assets/favicon.ico
+
+permalink: /:year-:month-:day-:title/
+sass:
+    style: compressed
+    sass_dir: css
+
+navbar:
+ - name: "Articles"
+   link: "articles"
