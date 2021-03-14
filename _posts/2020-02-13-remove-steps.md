@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Remove steps
-subtitle: In my first job, my boss passed down an insight I’ll never forget…
+subtitle: If you want someone to take a particular action, remove as many steps needed to take that action as you can…
 tags: [design]
 ---
 

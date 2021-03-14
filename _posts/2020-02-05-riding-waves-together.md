@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Riding waves together
-subtitle: In my first job, my boss passed down an insight I’ll never forget…
+subtitle: If you’ve ever done a project on your own, you know that motivation follows an oscillating pattern…
 tags: [business]
 ---
 
