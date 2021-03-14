@@ -234,7 +234,8 @@ code {
     img {
         text-align: center;
         margin: 10px 10px 10px 10px;
-        max-width: $max-width;
+        height: auto;
+        width:100%;
     }
 
     .color-red {
