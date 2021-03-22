@@ -7,7 +7,7 @@ title: Me in 10 seconds
 
 Half Norwegian, half Finnish. Traveled the world full-time for the last four years, now settled in Lisbon. Used to be a professional magician, then stumbled into tech. My work is mostly centered around product, design, and growth. 
 
-Currently leading product at <a href="https://www.immunefi.com/">Immunefi</a>, and run software agency Plectanim.
+Currently leading product at <a href="https://www.immunefi.com/">Immunefi</a>, and run software agency <a href="https://www.plectanim.com/">Plectanim</a>. 
 
 ### Worth checking out
 - <a href="/articles">Articles</a>
